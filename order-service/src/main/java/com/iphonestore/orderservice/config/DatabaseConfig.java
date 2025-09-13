@@ -1,4 +1,4 @@
-package main.java.com.iphonestore.orderservice.config;
+package com.iphonestore.orderservice.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;

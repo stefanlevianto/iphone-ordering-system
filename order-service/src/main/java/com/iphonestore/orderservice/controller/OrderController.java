@@ -1,4 +1,4 @@
-package main.java.com.iphonestore.orderservice.controller;
+package com.iphonestore.orderservice.controller;
 
 import com.iphonestore.orderservice.dto.OrderDto;
 import com.iphonestore.orderservice.dto.OrderRequestDto;

@@ -1,4 +1,4 @@
-package main.java.com.iphonestore.orderservice.repository;
+package com.iphonestore.orderservice.repository;
 
 import com.iphonestore.orderservice.entity.Order;
 import com.iphonestore.orderservice.enums.OrderStatus;

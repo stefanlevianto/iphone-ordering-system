@@ -1,4 +1,4 @@
-package main.java.com.iphonestore.orderservice.dto;
+package com.iphonestore.orderservice.dto;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;

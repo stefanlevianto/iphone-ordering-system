@@ -1,4 +1,4 @@
-package main.java.com.iphonestore.orderservice.dto;
+package com.iphonestore.orderservice.dto;
 
 import com.iphonestore.orderservice.enums.OrderStatus;
 

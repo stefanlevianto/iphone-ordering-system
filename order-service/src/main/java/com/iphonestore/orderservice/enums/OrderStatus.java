@@ -1,4 +1,4 @@
-package main.java.com.iphonestore.orderservice.enums;
+package com.iphonestore.orderservice.enums;
 
 public enum OrderStatus {
     PENDING,

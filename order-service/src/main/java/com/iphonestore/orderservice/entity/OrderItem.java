@@ -1,4 +1,4 @@
-package main.java.com.iphonestore.orderservice.entity;
+package com.iphonestore.orderservice.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.DecimalMin;
@@ -54,5 +54,11 @@ public class OrderItem {
         this.productPrice = productPrice;
         this.quantity = quantity;
         this.subtotal = productPrice.multiply(BigDecimal.valueOf(quantity));
+    }
+
+    public void calculateSubtotal() {
+        if (productPrice != null && quantity != null) {
+            this.subtotal = productPrice.multiply(BigDecimal.valueOf(quantity));
+        }
     }
 }

@@ -1,4 +1,4 @@
-package main.java.com.iphonestore.orderservice.entity;
+package com.iphonestore.orderservice.entity;
 
 import com.iphonestore.orderservice.enums.OrderStatus;
 import jakarta.persistence.*;
@@ -62,5 +62,10 @@ public class Order {
         this.customerName = customerName;
         this.customerEmail = customerEmail;
         this.totalAmount = totalAmount;
+    }
+
+    public void addItem(OrderItem item) {
+        items.add(item);
+        item.setOrder(this);
     }
 }

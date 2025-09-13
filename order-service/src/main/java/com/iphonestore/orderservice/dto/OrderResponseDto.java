@@ -1,4 +1,4 @@
-package main.java.com.iphonestore.orderservice.dto;
+package com.iphonestore.orderservice.dto;
 
 import com.iphonestore.orderservice.enums.OrderStatus;
 
@@ -9,6 +9,12 @@ import lombok.Data;
 
 @Data
 public class OrderResponseDto {
+    public OrderResponseDto(Object object, String string) {
+    }
+
+    public OrderResponseDto() {
+    }
+
     private Long orderId;
     private String customerName;
     private String customerEmail;
